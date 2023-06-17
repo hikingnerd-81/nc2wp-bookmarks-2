@@ -286,7 +286,8 @@ $allowed_protocols = array(
     }
 $tableoutput .= "</tbody>";
 $tableoutput .= "</table>";
-$tableoutput .= $tablescript;
+    $tablescript = "";
+    $tableoutput .= $tablescript;
 
 return $tableoutput;
 }
