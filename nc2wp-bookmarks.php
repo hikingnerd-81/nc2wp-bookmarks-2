@@ -189,8 +189,6 @@ function nc2wpbm_getBMfromNC($tags, $order){
     
     // for basic auth as required by api v2
     $url = get_option('nc2wpbm_nc_server') .'/index.php/apps/bookmarks/public/rest/v2/bookmark?&page=-1&conjunction=or'.$tagsURL;
-    print($url);
-    echo '<hr>';
     
     $args = array(
         'headers' => array(
